@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="POC Test" verbose="1" >
+    <test name="POC Test Run">
+        <groups>
+            <run>
+                <include name="HelloWorld"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TransfersDEPRECATED.HelloWorld"></class>
+        </classes>
+    </test>
+</suite>
